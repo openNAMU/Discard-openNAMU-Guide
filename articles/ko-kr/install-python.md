@@ -1,10 +1,10 @@
 0장 파이썬 설치
 ====
 
-# I. 파이썬 설치
+## I. 파이썬 설치
 파이썬을 시작하려면 기기에 파이썬 개발환경이 설치되어 있어야합니다. 파이썬 개발환경을 설치해봅시다.
 
-## Windows/Mac 환경
+### Windows/Mac 환경
 ![](/assets/0/1.png)  
 
 [파이썬 공식 홈페이지](https://python.org)에서 파이썬을 다운로드받습니다.
@@ -57,7 +57,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 Enter키를 눌러야 컴퓨터는 명령받은 작업을 실행합니다.  
 ```
 
-## 앗 Add Python 3.7 to PATH에 체크하지 않고 설치를 눌러버렸어요.
+### 앗 Add Python 3.7 to PATH에 체크하지 않고 설치를 눌러버렸어요.
 
 ![](/assets/0/11.png)  
 
@@ -93,7 +93,7 @@ _Python37-32_ 는 파이썬 버전에 따라 경로가 달라질 수 있습니�
 
 마지막으로, 컴퓨터를 재부팅합니다.
 
-## Linux(Debian 계열) 환경
+### Linux(Debian 계열) 환경
 다음 명령어를 차례로 입력합니다.
 ```
 sudo apt-get update
