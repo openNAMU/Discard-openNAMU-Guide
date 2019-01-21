@@ -3,10 +3,16 @@
 
 # I. 오픈나무 다운로드
 [릴리즈](https://github.com/2du/openNAMU/releases)에서 오픈나무의 릴리즈 판을 다운로드 받고, 압축을 해제합니다.  
-릴리즈 판은 stable 브랜치에도 업로드되어 리눅스 환경에서 wget을 사용하거나, 레포지토리를 [클론](#클론)하여 릴리즈를 적용하는 것도 가능합니다.
+릴리즈 판은 stable 브랜치에도 업로드되어 리눅스 환경에서 wget을 사용하거나, 레포지토리를 클론하여 릴리즈를 적용하는 것도 가능합니다.
 
+wget (wget 설치 필요)
 ```
 wget https://github.com/2du/openNAMU/archive/stable.zip
+```
+
+클론 (Git 설치 필요)
+```
+git clone -b stable https://github.com/2du/openNAMU.git
 ```
 
 # II. 모듈 설치
