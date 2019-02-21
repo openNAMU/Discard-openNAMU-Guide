@@ -49,5 +49,6 @@ python3 app.py
 
  * [apache 설정 파일 예시](/conf_example/apache/)
  * [nginx 설정 파일 예시](/conf_example/nginx.conf)
+ * [nginx https 설정 예시](/conf_example/nginx.conf)
 
 만약 HTTPS 리버스 프록시를 설정하는 경우, 보안을 위해 오픈나무 설정에서 호스트를 `127.0.0.1` 또는 `localhost`로 변경할 것을 권장합니다.

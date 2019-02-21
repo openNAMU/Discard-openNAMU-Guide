@@ -9,3 +9,4 @@ openNAMU-Guide
 ## 시작하기
  * [파이썬 설치](/articles/ko-kr/install-python.md)
  * [오픈나무 시작](/articles/ko-kr/start-opennamu.md)
+   * [오픈나무 도커로 시작](/articles/ko-kr/docker-install.md)
