@@ -33,7 +33,7 @@ docker run -p <port>:3000 -v <data>:/app/data --name <container> opennamu/<repos
 권장하는 도커 실행 명령은 다음과 같습니다:
 ```
 cd <path>
-git clone -b stable https://github.com/2du/openNAMU.git
+git clone -b master https://github.com/2du/openNAMU.git
 cp opennamu/data data
 cp opennamu/views skin
 docker pull opennamu/stable
