@@ -27,7 +27,7 @@ docker run -p <port>:3000 -v <data>:/app/data --name <container> opennamu/<repos
 * 스킨을 추가하고 싶다면 -v <skin>:/app/views를 -v <data>:/app/data 뒤에 추가하세요.
 ```
 
- * 도커는 호스트와 공유하는 도커 내 디렉토리를 최초 1회 초기화합니다. 도커 실행후 오류가 발생하면, 그것은 데이터파일 손실일 가능성이 높습니다.
+ * 도커는 호스트와 공유하는 도커 내 데이터 디렉토리를 최초 1회 초기화합니다. 도커 실행후 오류가 발생하면, 그것은 **데이터파일 손실일 가능성이 높습니다.**
  * 데이터파일은 [깃허브 오픈나무 저장소 stable 브랜치](https://github.com/2du/openNAMU/tree/stable)에서 가져올 수 있습니다.
 
 권장하는 도커 실행 명령은 다음과 같습니다:
